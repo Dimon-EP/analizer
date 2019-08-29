@@ -19,5 +19,5 @@ ruby analyzer.rb ./examples/sample-0-origin.html ./examples/sample-1-evil-gemini
 Example #2
 
 ```
-ruby analyzer.rb ./examples/sample-0-origin.html ./examples/sample-2-container-and-clone.html .dropdown-menu
+ruby analyzer.rb ./examples/sample-0-origin.html ./example/sample-4-the-mash.html .dropdown-menu
 ```
