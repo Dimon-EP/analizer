@@ -18,7 +18,7 @@ class Analyzer
     sample_path = Pathname.new(params[1])
     sample_file = Nokogiri::HTML(open(sample_path))
     sample = sample_file.search(element).first
-    puts sample.path
+    puts sample.path if sample
   end
 end
 
